@@ -32,7 +32,7 @@ Blink-DB is a high-performance, write-optimized database system implemented in C
 
 ## Documentation
 
-Complete documentation is available at [https://ganajayant.github.io/Blink-DB/](https://ganajayant.github.io/Blink-DB/)
+Complete documentation is available at [https://ganajayant.github.io/Blink-DB/html/index.html](https://ganajayant.github.io/Blink-DB/html/index.html)
 
 For local documentation generation:
 ```sh
