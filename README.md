@@ -11,9 +11,8 @@ Blink-DB is a high-performance, write-optimized database system implemented in C
 .
 ├── benchmark.sh
 ├── Design Document.pdf
-├── docs
-│   ├── Doxyfile
-│   └── html
+├── Doxyfile
+├── html
 ├── images
 │   └── LSM Tree.png
 ├── Makefile
@@ -30,6 +29,17 @@ Blink-DB is a high-performance, write-optimized database system implemented in C
     ├── resp
     └── resp_encoder.hpp
 ```
+
+## Documentation
+
+Complete documentation is available at [https://ganajayant.github.io/Blink-DB/](https://ganajayant.github.io/Blink-DB/)
+
+For local documentation generation:
+```sh
+make docs
+```
+- Generates documentation using Doxygen
+- Output will be available in the `html/` directory
 
 ## DB Architecture
 

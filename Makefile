@@ -5,7 +5,6 @@ SRC = src/main.cpp
 CLI = src/cli.cpp
 EXEC = main
 CLI_EXEC = main
-DOCS_DIR = docs
 DATA_DIR = data
 BENCHMARK  = benchmark.sh
 
@@ -23,7 +22,7 @@ benchmark:
 	bash $(BENCHMARK)
 
 docs:
-	cd $(DOCS_DIR) && doxygen
+	doxygen
 
 prune:
 	rm -Rf $(EXEC) $(DATA_DIR) $(CLI_EXEC)
